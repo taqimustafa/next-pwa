@@ -1,52 +1,61 @@
 {
-  "name": "Next.JS Progressive Web App",
-  "short_name": "Next PWA",
-  "theme_color": "#ffffff",
-  "background_color": "#004740",
-  "display": "fullscreen",
-  "orientation": "portrait",
+  "name": "OpenSooq Jordan",
+  "short_name": "OpenSooq",
   "scope": "/",
-  "start_url": "/",
+  "gcm_sender_id": "103953800507",
+  "start_url": "/en?utm_source=homescreen&utm_medium=MobileHomeShortcut",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f2f2f2",
+  "theme_color": "#f2f2f2",
+  "prefer_related_applications": false,
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.opensooq.OpenSooq&referrer=utm_source%3Dinhouse%26utm_medium%3DfooterSplash%26utm_campaign%3DApp-Install-PWAChromefooterSplash",
+      "id": "com.opensooq.OpenSooq"
+    },
+    {
+      "platform": "itunes",
+      "url": "https://click.google-analytics.com/redirect?tid=UA-3883661-2&url=https%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2F%D8%A7%D9%84%D8%B3%D9%88%D9%82-%D8%A7%D9%84%D9%85%D9%81%D8%AA%D9%88%D8%AD-opensooq%2Fid654456967&aid=654456967&idfa=%{idfa}&cs=inhouse&cm=footerSplash"
+    }
+  ],
   "icons": [
     {
-      "src": "/static/icons/icon-72x72.png",
-      "sizes": "72x72",
-      "type": "image/png"
-    },
-    {
-      "src": "/static/icons/icon-96x96.png",
+      "src": "https://opensooqui2.os-cdn.com/os_web/webApp/default/os-96X96.png",
       "sizes": "96x96",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "/static/icons/icon-128x128.png",
-      "sizes": "128x128",
-      "type": "image/png"
-    },
-    {
-      "src": "/static/icons/icon-144x144.png",
+      "src": "https://opensooqui2.os-cdn.com/os_web/webApp/default/os-144X144.png",
       "sizes": "144x144",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "/static/icons/icon-152x152.png",
-      "sizes": "152x152",
-      "type": "image/png"
-    },
-    {
-      "src": "/static/icons/icon-192x192.png",
+      "src": "https://opensooqui2.os-cdn.com/os_web/webApp/default/os-192X192.png",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "/static/icons/icon-384x384.png",
+      "src": "https://opensooqui2.os-cdn.com/os_web/webApp/default/os-256X256.png",
+      "sizes": "256x256",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://opensooqui2.os-cdn.com/os_web/webApp/default/os-384X384.png",
       "sizes": "384x384",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     },
     {
-      "src": "/static/icons/icon-512x512.png",
+      "src": "https://opensooqui2.os-cdn.com/os_web/webApp/default/os-512X512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ],
   "splash_pages": null
