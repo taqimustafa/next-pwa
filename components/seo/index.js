@@ -69,7 +69,7 @@ export default function SEOComponent({ seo, keywords = "" }) {
       />
       <link
         rel="apple-touch-icon"
-        href="//opensooqui2.os-cdn.com/os_web/webApp/default/apple-touch-icon-144X144.png"
+        href="https://opensooqui2.os-cdn.com/os_web/webApp/default/os-192X192.png"
       />
     </>
   );
