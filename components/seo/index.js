@@ -48,14 +48,10 @@ export default function SEOComponent({ seo, keywords = "" }) {
         name="viewport"
         content="width=device-width, height=device-height ,initial-scale=1.0, shrink-to-fit=no"
       />
-      <meta name="google" content="notranslate" />
-      <meta name="HandheldFriendly" content="true" />
-      <meta name="mobile-web-app-capable" content="yes" />
-      <meta name="apple-mobile-web-app-capable" content="yes" />
-      <meta
-        name="google-site-verification"
-        content="DKyUJgvF-vM9nTJU7gK6ITVQ2D-vGhM3MTRul-b4L5o"
-      />
+      <link rel="apple-touch-icon" href="/image/apple-touch-icon.png" />
+      <link rel="apple-touch-icon" sizes="72x72" href="/image/apple-touch-icon-72x72.png" />
+      <link rel="apple-touch-icon" sizes="114x114" href="/image/apple-touch-icon-114x114.png" />
+      <link rel="apple-touch-icon" sizes="144x144" href="/image/apple-touch-icon-144x144.png" />
       <link
         rel="shortcut icon"
         type="image/x-icon"
@@ -67,9 +63,13 @@ export default function SEOComponent({ seo, keywords = "" }) {
         name="apple-itunes-app"
         content="app-id=654456967, app-argument=https://opensooq.com"
       />
-      <link
-        rel="apple-touch-icon"
-        href="https://opensooqui2.os-cdn.com/os_web/webApp/default/os-192X192.png"
+      <meta name="google" content="notranslate" />
+      <meta name="HandheldFriendly" content="true" />
+      <meta name="mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta
+        name="google-site-verification"
+        content="DKyUJgvF-vM9nTJU7gK6ITVQ2D-vGhM3MTRul-b4L5o"
       />
     </>
   );
