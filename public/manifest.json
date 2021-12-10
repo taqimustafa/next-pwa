@@ -3,7 +3,7 @@
   "short_name": "OpenSooq",
   "scope": "/",
   "gcm_sender_id": "103953800507",
-  "start_url": "/en?utm_source=homescreen&utm_medium=MobileHomeShortcut",
+  "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#f2f2f2",
