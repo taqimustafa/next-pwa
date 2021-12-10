@@ -63,14 +63,9 @@ export default function SEOComponent({ seo, keywords = "" }) {
         name="apple-itunes-app"
         content="app-id=654456967, app-argument=https://opensooq.com"
       />
-      <meta name="google" content="notranslate" />
       <meta name="HandheldFriendly" content="true" />
       <meta name="mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-capable" content="yes" />
-      <meta
-        name="google-site-verification"
-        content="DKyUJgvF-vM9nTJU7gK6ITVQ2D-vGhM3MTRul-b4L5o"
-      />
     </>
   );
 }
